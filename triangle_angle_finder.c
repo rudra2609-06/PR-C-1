@@ -6,12 +6,12 @@
 
 int main()
 {
-	int s1,s2,s3;
-	printf("Provide me first side of triangle: \n");
-	scanf("%d",&s1);
-	printf("Provide me second side of triangle: \n");
-	scanf("%d",&s2);
-	s3 = 180 - (s1 + s2);
-	printf("The third side of triangle is %d \n",s3);
+	int a1,a2,a3;
+	printf("Provide me first angle of triangle: \n");
+	scanf("%d",&a1);
+	printf("Provide me second angle of triangle: \n");
+	scanf("%d",&a2);
+	a3 = 180 - (a1 + a2);
+	printf("The third angle of triangle is %d \n",a3);
 	return 0;
 }
